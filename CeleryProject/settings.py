@@ -25,8 +25,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'mymail@gmail.com'
-EMAIL_HOST_PASSWORD = "my_password"
+EMAIL_HOST_USER = 'someone@gmail.com'
+EMAIL_HOST_PASSWORD = "somepassword"
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -42,7 +42,7 @@ SECRET_KEY = '(s2^8$lsrn)hmh@fx^(u_2d372+5zv#*d$2awqk3p0rxcpmy4d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
